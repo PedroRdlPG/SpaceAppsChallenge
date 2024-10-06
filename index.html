@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seismic Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Seismic Detection</h1>
+<div class="image-container" direction="row">
+    <img src="FullMoon2010.jpg" alt="Moon" class="moon" onclick="handleMoonClick()">
+    <img src="1920x1080.jpg" alt="Mars" class="mars" onclick="handleMarsClick()">
+</div>
+</body>
+</html>
+<script>
+    function handleMoonClick() {
+        window.location.href = 'moon_index.html';
+    }
+    function handleMarsClick() {
+        window.location.href = 'index_mars.html';
+    }
+</script>

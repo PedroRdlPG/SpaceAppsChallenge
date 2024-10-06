@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+.image-container {
+    display: flex; /* Enables flexbox layout */
+    height: calc(100% - 60px); /* Adjusts height based on header */
+}
+
+.moon, .mars {
+    flex: 1; /* Each image takes equal space */
+    width: 50%; /* Each image takes half of the container */
+    height: 100%; /* Ensures the images fill the height */
+    object-fit: cover; /* Maintains aspect ratio while covering */
+}
